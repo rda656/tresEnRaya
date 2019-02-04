@@ -161,7 +161,6 @@ public class TresEnRaya {
     }
     
     private static void pintarTablero(){
-        //System.out.print("\033[H\033[2J");
         ES.escribirLn("\n-------------");
         for(int i = 0; i < tablero.length; i++){
             for(int j = 0; j < tablero[i].length; j++)
